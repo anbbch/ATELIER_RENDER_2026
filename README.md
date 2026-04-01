@@ -53,10 +53,11 @@ Procédez à la modification de ce README.md BOUBCHIR Anya et Commitez. La créa
 
 <img width="2150" height="616" alt="image" src="https://github.com/user-attachments/assets/7254a9c4-1bc7-4338-b25e-cad8259d396b" />  
 
-<img width="797" height="215" alt="image" src="https://github.com/user-attachments/assets/eb71e0b7-0328-47ba-9be9-833b9b29c192" />
-
+<img width="977" height="406" alt="image" src="https://github.com/user-attachments/assets/f2fd9b9e-95b8-4037-b312-46896ee9e378" />
 
 Vous pouvez cliquez sur votre URL est observez le résultat.  
+
+<img width="797" height="215" alt="image" src="https://github.com/user-attachments/assets/eb71e0b7-0328-47ba-9be9-833b9b29c192" />
   
 <img width="2048" height="224" alt="image" src="https://github.com/user-attachments/assets/fd03a614-93b6-4416-869c-f8a737b272e2" />
 
