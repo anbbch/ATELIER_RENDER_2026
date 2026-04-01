@@ -133,6 +133,22 @@ frontend/
 ```
 **Indices N°2 :** Le répertoire racine de votre React (frontend) est à renseigner dans le champ **Root Directory** dans Render lors de la création de votre **Static Site**  
 
+Étape 1 : Il faut crée la base de Donnée PostGre sur Render → New → PostGre
+
+Étape 2 : Récupérer les URLs et créer les secrets GitHub
+Va dans GitHub → Settings → Secrets and variables → Actions et crée ces 2 nouveaux secrets :
+
+  Secret 1 — DB_HOST
+C'est le Hostname que tu vois déjà affiché : dpg-d76het7pm1nc73963ljg-a
+  Secret 2 — DB_URL
+C'est l'Internal Database URL (clique sur 👁️ pour la voir). Elle ressemble à : postgresql://postgres_anbbch_user:MOTDEPASSE@dpg-d76het7pm1nc73963ljg-a/postgres_anbbch
+  Secret 3 — DB_EXTERNAL_URL
+C'est l'External Database URL (pour Adminer). Clique sur 👁️ pour la voir.
+
+<img width="1031" height="259" alt="image" src="https://github.com/user-attachments/assets/2e57108f-50c9-4a3d-9fec-92c7f5ccc94a" />
+<img width="2194" height="1105" alt="image" src="https://github.com/user-attachments/assets/48b2dc18-c825-4f7a-ab23-09a2d2a422fe" />
+
+
 ---------------------------------------------------
 Evaluation
 ---------------------------------------------------
