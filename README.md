@@ -148,6 +148,12 @@ C'est l'External Database URL (pour Adminer). Clique sur 👁️ pour la voir.
 <img width="1031" height="259" alt="image" src="https://github.com/user-attachments/assets/2e57108f-50c9-4a3d-9fec-92c7f5ccc94a" />
 <img width="2194" height="1105" alt="image" src="https://github.com/user-attachments/assets/48b2dc18-c825-4f7a-ab23-09a2d2a422fe" />
 
+Crée l'Adminer, il faut modifier, deploy.yml, main.cf, app.py et variables.py
+
+<img width="1575" height="665" alt="image" src="https://github.com/user-attachments/assets/69cf89b4-d98f-4ea8-b862-aeb185188d25" />
+
+<img width="2229" height="983" alt="image" src="https://github.com/user-attachments/assets/f9068d08-6046-48a4-95d8-db3912bf8756" />
+
 
 ---------------------------------------------------
 Evaluation
