@@ -1,7 +1,10 @@
-from flask import Flask
+from flask import Flask, jsonify
 import os
+import psycopg2
+from flask_cors import CORS 
 
 app = Flask(__name__)
+CORS(app)  
 
 def get_db():
     return psycopg2.connect(os.environ.get("DATABASE_URL"))
