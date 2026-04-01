@@ -53,3 +53,4 @@ resource "render_web_service" "adminer" {
       value = var.db_host
     }
   }
+}
