@@ -82,6 +82,10 @@ def info():
         "version": "v1"
     }
 ```
+
+<img width="784" height="243" alt="image" src="https://github.com/user-attachments/assets/48433a3d-19f5-4f67-b8e3-ac9f6070e180" />
+
+
 ### Exercice 2    
 Injecter une variable d'environnement dans Render via Terraform.
 1° - Modifier le main.tf de Terraform  
