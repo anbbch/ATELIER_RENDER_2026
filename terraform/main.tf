@@ -12,11 +12,7 @@ provider "render" {
   owner_id = var.render_owner_id
 }
 
-variable "github_actor" {
-  description = "GitHub username"
-  type        = string
-}
-
+# --- Flask Web Service ---
 resource "render_web_service" "flask_app" {
   name   = "flask-render-iac-${var.github_actor}"
   plan   = "free"
@@ -28,9 +24,33 @@ resource "render_web_service" "flask_app" {
       tag       = var.image_tag
     }
   }
+
   env_vars = {
     ENV = {
       value = "production"
+    }
+    DATABASE_URL = {
+      value = var.db_url
+    }
+  }
+}
+
+# --- Adminer Web Service ---
+resource "render_web_service" "adminer" {
+  name   = "adminer-${var.github_actor}"
+  plan   = "free"
+  region = "frankfurt"
+
+  runtime_source = {
+    image = {
+      image_url = "ghcr.io/bstocker/adminer-render"
+      tag       = "latest"
+    }
+  }
+
+  env_vars = {
+    ADMINER_DEFAULT_SERVER = {
+      value = var.db_host
     }
   }
 }
